@@ -1,0 +1,439 @@
+
+
+
+{ 
+    "aereopuertos":[ 
+{
+   "name":"Aereopuerto Internacional el Dorado",
+   "country": "Colombia",
+   "city": "Bogota D.C"
+},
+{
+   "name":"Aereopuerto Internacional  Alfonso Bonilla Aragon",
+   "country": "Colombia",
+   "city": "Cali"
+},
+{
+   "name":"Aeropuerto Internacional de Ezeiza",
+   "country": "Argentina",
+   "city": "Buenos Aires"
+},
+{
+   "name":"Aeroparque Internacional Jorge Newbery",
+   "country": "Argentina",
+   "city": "Buenos Aires"
+},
+{
+   "name":"Aeropuerto Internacional Rodríguez Ballón",
+   "country": "Peru",
+   "city": "Arequipa" 
+},
+{
+   "name":"Aeropuerto Internacional Jorge Chávez",
+   "country": "Peru",
+   "city": "Callao" 
+},
+{
+   "name":"Aeropuerto Internacional General Heriberto Jara",
+   "country": "Mexico",
+   "city": "Veracruz" 
+},
+{
+   "name":"Aeropuerto Internacional Cancún",
+   "country": "Mexico",
+   "city": "Cancún" 
+},
+{
+   "name":"Aeropuerto Internacional Adolfo Suárez",
+   "country": "España",
+   "city": "Madrid" 
+},
+{
+   "name":"Aeropuerto Internacional Malaga-Costa del Sol",
+   "country": "España",
+   "city": "Malaga" 
+},
+{
+   "name":"Aeropuerto Internacional los Angeles",
+   "country": "Estados Unidos",
+   "city": "Los Angeles" 
+},
+{
+   "name":"Aeropuerto Internacional Miami",
+   "country": "Estados Unidos",
+   "city": "Florida" 
+}
+],
+
+"aereolineas":[
+{
+   "name":"LATAM",
+   "infoContact":"contactlatam@latam.com",
+   "picture": "https://upload.wikimedia.org/wikipedia/commons/d/de/Latam-logo.jpg"
+},
+{
+   "name":"Avianca",
+   "infoContact":"servicioavianca@avianca.com",
+   "picture": "https://www.brandemia.org/wp-content/uploads/2013/05/7_Avianca_logo_959_487_cy_90.jpg"
+},
+{
+   "name":"Gol Linhas",
+   "infoContact":"contactenos@voegol.com.br",
+   "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/GOL_logo.svg/1200px-GOL_logo.svg.png"
+},
+{
+   "name":"Volaris",
+   "infoContact":"tuexperiencia@volaris.com",
+   "picture":"https://www.paredro.com/wp-content/uploads/2018/12/El-logo-de-Volaris-representa-a-Polaris-la-estrella-del-norte.jpg"
+},
+{
+   "name":"Air Europe",
+   "infoContact":"relations@air-europa.com ",
+   "picture":"data:image/png;base64,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"
+},
+{
+   "name":"AereoMexico",
+   "infoContact":"atención al cliente@aeromexico",
+   "picture":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbsAAAByCAMAAAD9J4/kAAABI1BMVEX///8BK10AKVwAJ1v///0tRG4AGlUAJVoAAE0AElIAJFkAF1QAHlcAHFWYorIAFVQAAEUAAEp7hZsAIVjW2uKOmK0AD1GlrLkAAE7k5+kAAEK8xM70+PjCytIAKmAAAEcACk9seZA6S3JPYoA/VXmstMIAAD7z9PgUM1/W2uO0u8Xj5ewHL19fbosAOokANYiCjqbuGgDuJRfuLSEARo5Mb6OzwdaKn796krbU2typr768yNaer8cmPGkAP4sAKIRYaIYAMIf58OvwXVLyb2Tzrqn0mJAAADQQTZEuYplegKy3wdIAF3wAC3lrhLCFm7slWZZSYYdHa6L5z8v0ioHwUEPuQzX2wLr75uLuPCrzgXn1konyZl/vVEn1vLb33Nf1qaS0ZNKkAAAYwElEQVR4nO1dCXvSyhoOyQBhaSAEAoFE9lIoS48WCgIt1eqp9dxWW49H63X5/7/izsw3WQl0karHm/fRLkMyM5l3vnVmUo4LECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAtwXrd0shdaC39HP7U6AW0Az8nu9cEKWxQqFWBaVWm8vb1AOAwZ/UeidvYZaqKSSihBygheUrZRaVhZS9md3McAKdNJb0dBq8PGImMwHkvdrYi+5hjrgT8wEevP2QEhnP+joYYdNCwsrKFNSMRXbvlgiopSNB+3D7wV9/xQ4yx6/Is7Cg/GndeOrqKuWDOJzljrS3lvpodr/DdE+PD2gP8wOjznubGg8EHmT5Epjx88zmn2hjhHozfWYUsrQbGgc75KxOjsb6KP+wBhNWw/QWinGrzFzSblH2dOa1UZXiTxqZLIBfauAtOHha/rTcHjQH+KBQv3RYDoYD3Rt3N58e/nKGuoIklslLrtQU8koT6OGQiMbeC3+mB0fIOM1IubufDQ6mmHd+Zd+ejo+uMTOy+Z9llxhPXMYQqJRURwEx9X8pnvxm6B9NDvbJy5d+z8ah15jFttj7nIfnc4eoDGUqdxIHYbHHvKV5gP05TcAOj86QNqZzmmaLWSaph89QGoDLWK3oW4ZcpBn8QBRL04/Pjg4GuvuT3Dx5m2M3ojcj7qQ0ghMnhvZQ8rY7K/h7o8Ymlb4xmwKAy/wnuC9MHn4/v2b0AL/EqHXP2ROT5SEQrAqLqekKZGYWFAfdbvdiFyoxCKmz5Lc+xFd/NcAvTm+uPGi1sZo1Ra9XrWK/y22VjGXlHeqUmlitqllO7nqjhgj/EUbyzXqJYNg8kAzj1VfcrgBVpm++rYfAXQ2HB0Nb7Jq+nRTI2PXU1X8qVOdORXrjlYnI1SSQnS5H81yDKPS3VAHvTDSpPqYXHWUSbTJWPFnp1oNHRu80931F6HWbCMxnt6y0fDXmjiKwy0ZnZKZzEGcOeWzGVVcrpPVU3kgH7STAjUedwjZHMxwqrOpRpDvKvPNcTXCzLy58cHbo3t2y4lcuWJB9c9mxhf4OuNRJabKVZA/fSF3zXHTlzWjlgJbmKx6P9kMJOYUV2yisiyxENlcsuD+knGbxMns+w1KtcI74K8xYyWOK8kCdVjkBXYrjYQSSqxxUSQzVkzYgoE6kgs5kk/XnCUdQ3M9DuImUi8cjT6qVfNulZ1RHJOKFTFHmXlOSPK0pnE6+7FkVp+n5YgzoNwhw0jLV+cxUSwka1XJdqO1fK8rimIsXO34W1Wkr7S2SDt40z8cjqwnRMPv4w7p9bTqQMx/7S6mcahrfhSX6xmZpDOTq72CmnlxzKHBFpWIEyJZR9IKCbskpZYbznjj6U4hokR5QYgqCbHhtGMLptp51eI0wuad0oPfQylXa2TFMSPSH2XW744ciRTI1TlaLtr2IPtWTigCnsk8H1VSc1aebciJOCnDhTEx4/f0aHruH9EhfTwYHI5nr2fnliWczr6LPNTSWk5oDT+lyac0ri07VCjM+khuVbWaSrglgxl3BO4ePyhBlFvL4xvF5ZJVSRgy40wZxMWqbtaFalFnJQQlM6EXr0OBZwm5grnTk7SqZIZeoHf5kEDnXz5BbzRXt1FGjLOWBQFzBdyhqkwbxfEt/ZaM+SUD0dnUd0Ta+/39GRhQS7egV5t1iat+ITrh7nVquZhf1TYxRwIVVL5iCQZiWi3GUCZyp7ORiMejMNZChN1gVKhsKarCR0AdRMJme+iRpQRqbCR65iQQwlAAs5A3W0sTsZUoSbxKl672ItQH45jnw/Oscr2RgIoSCaEb2lJTim6XCjGlG0pQGedFv7mLXvmtzU0H/eHSYKHZd6SlJ1Uver7ZFcJdJ7FcnnrqXy8KR0P8VoneEbFX2GEjTMwoMRBbrVOp4sOLRaML/g2T5qxKqVd7WR1HbmHqmygmebqtBFhSRy9bnWU+VJ1Qz8/N1jpkSqAdyrmywD9rMT6kNCjzwF2Idb4BMW5q/pRIiD7J1zVSCj3YwYYOabkIrUeWPEoP6a/Hr07Pl1bnmoP+BbkUTceXl+dWaKe9ubfSzEaSigf+EQLlblnuQtGaf9sTrOywF0EVjzC3inNkUPiK41Hx0ITIRRGqfpq0iSjRsgjNqdiojHnUo0MXYW6rJpKaBAfVeXxvFJRrCvIHlDuh5u5ZR6WXEAW6UPDMANtTIp6VsAOXZGgveJUoVttbzNFSyjUpm4D29abh0dlFGxPkzRHOBgNq2qZvjo8vZ7NZ06z25khiBTrpWGIlIk6PcxV3oYp/JnNvi4ZZoH8rlo9BuQtVXJcSo4OtFng09AaQmxwVWsUKMRCYLxkqyxIK+IYAQ05GAn8sNKDPBW0ld4gDQxmvcR1sH1PMU3ZylwUjG8m4btQo5/yWZQCaKtTjnrx0UXUpPpgN+jNSeDEYnO3CZeyT8YHv+N0ITcqvgRRykLeSu62Mb9VzbODVFjJU9/gDdwnXpcAd80ap4PFz/GStLdp8xbYdHRp1xEHJkcHmhWYC5gYCQYzkwcNgk4Vy503XoQlEgak87qMwZ5krJ3f0thC/4x5/mIZbto5k3pLtWS1DN2YX4/HB6GBwOCKEnjPpI7kQVsnocvXt3wHJkdlcyZ0Q8vFWkCEzT50mq+3cR44OQMT9gE7uaBvUT8xTpkx3n1QKyjUk0pn/NELkU3vEm3ODTIuURuuiwSi3gjvLpyF6xdIIDu52wV31BPgtSLsXHEEm+KaOHnrQGvePLy9mo9Fp//B01kborN+nhm46HBydvgKblx2sun09NGMtao5gYZWv4lSIDpDAmWamICiIddhspdzxvtzBcGfIfKHOzYLd6bgSBh1iAlITdt1ZEZ4b2OPBNIFeTYAHRbmLv116bNFUKHbOx8FdDhI2FZeziCAAcSngXeou8RFPMoEDjYi0/eMLUgca9/uv9en4bNjfn5CYbHg8GOOI6y9K3u6Rdi9vpVRU18AVpK/mLumjNAkdfIoIm0EfOW7OfeDuEcyN0sS6GLhDnEZmN09jhB3Qfk5TnndYQDIp8EiCHlU7tCHMKui7LfBemL0zSrDgYNWzx9JpvGKVObiDPKzXxYEUnCvBBx3nRZfFHxFrNyY27eD4grhc+rB/OKUKs79/djbb3T09vCRe63hALV1rcL8NY6VKlEAA2D+w/06GVnHHRxN1n4pVokvI5EMQTsVYJgF0Jg+Toyw5hoD4KrpBXUvREbGXnbMfiIrSBonAYd2qJajSrBMuSSAJcsgMLBAZhdbSdhytMzcsYatFmzsdskeKJw0LkakrF4EgdaS6DN7rM4SGYyJKo79IjD497Z9myUCc9Q/bnD4dHh72Z6PZeP/oFXWGWwP/SP4mGPPaGoSd+Y4V3MW79aqPo0lixFTJ+czM0c85g8ctJ3d8qNuNkoBOkOn4sFR2wdVf0Fs08ibjRsYX+CloEeo6Mh3Ncpx1Z7zjXFzIg+VO2KLo4A6E0qtOYFKkXEYQ6nevWqDZ+JLF2wf7BwevjgZkvwqljqiQ7Gn/3Dg4Pzu7mIKr2Tq+H3c3wJnA8udO8Fly5VjiScnsEfRAA82hp8CdgMWgUqnITu5CLA2OVRwt1SCV7VpbylLueLoiSJQryTmDHo0SRZeQIDax+sXkDpZH0s4hhidzuBkO7hLOrJkFqCvRXC7zrjjNxmYE0BodXIxoQoAoTqwbUftwcO66GO0e3Y+7G4zkzdwp/gECRNhJCqiDV4ERZu+yYPBAkTLuopAVwCJDu8XkzsUdRBw01EcFJs2MY6JrSe6Npbwczr7QYK05PETTY7b9LModzauwFJ1XZ0LqO3Kj3E3H48FwCLqIUkjCPe1Nf5+YtfZh/8wT+hlH97R3sUcEIfoFDyn5T3/HPXr0SLhZZ/r5KRhvl3MzbCgYd66rgbtoo1enQqnC1Gb2TnTaO5gTNIKgviK1V5Y3HCW6FExiaEu3xnbZz7TsnSOwtrljCyBeXwV0/5Zz0YslC1SXo707bbezWXfcNN3vvyHbxdp9TJ2nL7Oj++1bMVR+HZxjfxfu6BKCkDQB9yuUBOBOcV3O/Ew8AmFCgxAHp9lnYMB7p41S9Unjipy5MZHa1BJkvGTa2iruSJgNT6eaMuPgjuXi3TGCXzCnQ/xbWOPko9a0PXt1fEz3aE4Pl6njzvZX3rwWpWLFCdn64oFyN+7IYwq1vUwG/8Nf4FII1NbE5iUc0adppTA+oLEdeWzEvHeqo+hY03zcRGWdKROl2IbAGkKLFbE5SaxEgSDBXPkH7qglZUtJKXeWeSJTjyrpKHSo8NXQLobDA6qupz5Sx6HT4drbV6LVzmL5brfpl6yFtvUFvrcbwp24I0svqm0EQNtAiLcmJ0ZkCAwIzTIhkCBzOYcOA3gRBTLcNBlGF5cQ26QCYwjxMvPb/XNiZFcLv5WFylJsbji4QxBZCopb8UEzFcfJOXgwnzFAWVsUrR9mg/758pXto4c4m+AAjksJd83bcUeGj3c8uAHpB5qwX52LJjoTT256aYh61TtupYnYAhJYTloR+PjgWjIJbYkgNNRo+sudhK1mLM9S3SG2VujgjsuDJOOg0enNScyhtQo0toSnLW1qGb155XZAEKefDQY+WzbR+bG2XHpHSLk1CPGw9rp0WsGXO2KAXF5a3F6UA3tXcV0PaUrKHVOUW/TuTsWl1TgDmoeMIp3zYEMhcgjJdN+OrjqIZH6mu3saVn4kEtTZAhL01GHvEGqwhOfCKXk6LPbah55Y1IDvbznHH42nYw25NaE+2z/sj3zMota//P5tfqHI1kqQaI1wt7t0SMiXO+JkuHINoFuEHd2UuwI5Mau3NE2b6ObaK8iXBssvMk2QwS7f+Jw63KgDSk6EF0yQsJGJCXDPwgJOcERnwF2Ytqbjxii7dYXwzJGThjAXaPUdmzvcC7aImQzlgT2k4VuNAm2nAHawtaA+UhxPrVw117NFT79Esyl3bnqP+mx8cN4/Hgx95Auhi+MNbPMLRZJb2CfcIv/YF/PnJF1kxPoJ1by+v992lYno3YME6RDCJ9vzwIsMMvEHIaBibEOqEbZS6DX6i1BZSE9zNRVYZbOFRAamLaTCylKYZPEpZPqDsOdBsFojsQlZemXrVmFYyKMpNlg3F1iPs1EWlqYqjWqmWt8pkzskcFcSO3tP89UEbMdI7nJGvron2QOBhsiY6af2AEzP3wwvsr7RtNa//7K5jcw6MO64ScXzrhzZJx9GRpLuKLAeBsHyCRkk716YJOHOGeHqsPJNfU2EFtBgPJKAF77E5RwbgrhjIz1dCTdPs9DV2FCUBgY1T3fnREiJowIDa8jg+xCJb7r3Gmk1MxMfJ3sJBHigZoo+ibAViSSBxjkelbzRa+gOGzEan4+yjmQJXVTwowih4fEGzpqsryEfYc6HoaSsjLUgKH47bVoRfIHqThNVIzTFLU64XkRwIdIiGRRSZYxtfGnK9AO5SZ+401UVFmjyQrLSsFYVRHwNCyaQhiuNm1vn3ybJ7XGyesvN467GSGEmxeomqMO1RHylGOlhxJYWSYnF7RBXgUhdW1SS5nzgo4lIjlyvZaTOnv3ACJGNe7eiZHZ8dpvLboK2Dos4SUiSy3SpEbaw8HvTRKeLP5m7lXtph14/z3HVediFOeGOfjo3fYAe+wSqQJ0FX1FTiVglNs/YUt4KkUvMJEed1g0wWyCjWnM3Fm6gCbnPcl4m0K8uHnhp7miUQs/XQxU1FkvEVDkSzsCjoklmnqrEEglVTDYkcztbNXOf95Wg6WD/fmt3HmzJ4mrEV60OP9ARHzf0XaPT7ExW+9LI72f/kwS3qMHbcrNTyrbMS8hXzeg8fVqatFbfd7s2s4eD6UZGcCfKEmEC+8+7v6sr9vL9CPyQGXLXlm/TqbUnEozDwSaOknCme7YayveHkD8UP49vB9Du6m6MBgO/gO8+reg34ZcYjDsAIf0Z4AHeZOLG6m3prdcrPtPPB4cbOzppw7/Gfwt1zz5cfXn57uT53+8/fnzyGOPJk48f3//9/OTdyxf/fP3wbPPP8fVqnWadvfaZOWi2f3z5EIqsWWssofZvOE7+4Z9vJ++f/AF47MITSiMufvL++bsXVx82xuCzL+++rvsccdnzkUf29Nnp8f7sO072rUZejXqhJDd3rn3zIF37+uLkI2MN03Nyff3u00uCT++ur0/++xkopSQ+oRR+fvfi67Pvbvjq5Pk/N16EpsOzkXloS9+dDftHp7MHMkGSHPNAFX/2+e210K/eEd4eP7/+9gWLlM981jn07MPXf158Ovn8mFBIGHz8x+P311++3nsMn305+eO/69SlDaQdXB6eXg6Hl6eDo6M34wcwdAyT0hJ+YerQ1TVm4+Tb1S2lCD37+uUTldHHQODnT3eVQJ378AXPlscvP9zlpux0dnAwGxk/+hUUv6zCfPby8R8nL+4yhgzo6sX13yCChMCPJ59uZwUx8y+fE9l9d3X3RqHle953K0w8J0o29s6EjePD9eNP91d6eBi/frv+aOvQP/74+Pz65bd/rrzuKAKN+/L6M3hCf7/8nlYfEnk5ZUGVy7mf/J6ZlXh2fX21gb49u/pGJBAYfALeKHVsSGzxHkcaVgnF85dXz37VEbH8zLiyFRPn0q/aT/3Li0127cPVt08n7+3o4gnF4ycQYtDy99cv/7mHdv6h6EBIV+/lOje8mOcnAq2Nqu5eHfuOI3usG3Fsf/L8898Yn5+f4KAeu6/fH1D8EPyiqvxH4f/88QMECBAgwC2hZc1XD2VvePvEDcnYlrTiED6+rd3pGC3WjN722z2XXeFnact/zqFk99Nnn4kG50L+L8zg02INnPdSsbD+SpRdG/ZL5VWrJFI0XSymxTpsX5n86VMN2vI5jUuQ2fayoKXtbfMov9RmbhtmgbHmdQ6/C5qJBN3vpkWE5A2Xhotr1rB0eVUWtSfPmxPNyBTgsNdu0Y+7nRVvX8jIXu72EgWrpcmfSy+MzMnAXVd+iD8C82uhGQuT86z6XNi5ibvsuqmsr3p7eE6us1OlwPxu+ru405Ww/RZH1FmWO8Zd9hdOyG8KzXKnIZe4RbrUsI5qaab10TSdvr2CjhDSNXP3Fb4AmRuxdK1lb/LSsprH1OjqI7MAvltyhzCbpq0l3LWtv3Wj24cZl7h7Wiz1LO2M2B+11XE/s1DIuGN9xt/xJ1nLVOOaf+WlzTuimS7p8W6mnOFq7KiW3itup6v0CSfyDh4cqQhCsWBnKFv1cjEdZmT1KkW1Z45lrrxd9BwFKZU9G3ot7iYNOR1hr7RE83BoOx2Geozk9rbCxMbDHULhEDLMjfKc9idstCz9adSLIlULptw14Jidlu6FcZ8YYQZv1/wboIlV2KQSayAuzLirynktn6aDgoephowyvFWK68FeZtSQc0YHylrdmFTKiTvAQKu82C15uJPK9HSeTvb80gKTu0khlC9l0m9pPWiuSBNJht3M1brR4ZlD4pU7g7xVomG+ClXbllhpWCoB8zkRuKtDBa1YqqNL7O0iu3JjMqnLv2rO984g3HF5sjmccacXyazuzc2Pe7z5FivGXdYhSTnqoZTMN6/E5kv2RyrDAdp0gb2h3eRuIZNrJbB+qEtEey9NjSapMiNAo17uFrFONpsT2RlXi7uydcDJlDuTO5F8wprOkSY1+bf5U1aEO4SI2WDcZUVFVWOVAiMsF7PeasK4a5btAKsOJ7HmzMMvieWM970IdPA4Q8p5uCssyNdWmW6LAl/FSDNvyKhGu77caWoC62t5S/FwZ7+l38tdgdQfA6Xf20qqaqrs/8KEfyGalttncleWyBv8YXcN4haq9YowH+7eUu7QjhmdaQtTwZrQFXJSGROqp2HMTO7EBfnq4q4E3LVqcyPD+3K3Jz8lmzr2RIg3bsudah6Jp69r/r10JgXjDon0RRjM5c9s5xtpNjCMu0m5Z41njmrEDrzaiNPIacu02xdAzXKX1tUqurlbUG8xB78Bd4s0FfEqlqo9Htpwc6fHwSLqEeaJ3Ik7lE8TdYn+ZVvGV2OJOy5fDEtSHQKGPBYWvSvD0zLuuGq5IUlh6p3jzzL5qjyHqTwp50r1ojfQk4pyPSdlHolunamJlVx+UWS+Sneey9eLsK20l5potS68G8fNXb7M3lOUg78afQvuRIfcoblYlfZSv80fLX66bXI3h5wY4vKJYnFOS0tpogF31RglqhdnV+5VtrcZXa1eertcNd8JjaOLgtcTQFy2Km5vl2s5mAFWTkyrF7crOdjjhzKR7e0kG9Rscjtc3Y7SNl05MRQ2D9y1ytSdtWKEbZu7sjtGoNZNXrAOLkhvfxu5s9K59mkqxOnm+5ncV9o/6Z6LrY98ElGkJt2s0d2gdSv5atdJ/utL/YJzXshZiDhPnc7vyPrEt+cBAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgM3ifx4AvxAauxmjAAAAAElFTkSuQmCC"
+},
+{
+   "name":"American",
+   "infoContact":"https://www.aa.com",
+   "picture":"https://1000marcas.net/wp-content/uploads/2020/01/American-Airlines-logo.png"
+
+}
+],
+
+"relaciones":{
+   "aereopuertos":[{
+"airlineId": 1,
+"airportsId":[1,2,3,4,5,6,7,8,9,10]
+},
+{
+
+   "airlineId": 2,
+   "airportsId":[1,2,3,4,5,6,7,8,9,10]
+   },
+   {
+       "airlineId": 3,
+       "airportsId":[1,3,4,5,6,7,8,9,10]
+       },
+       {
+           "airlineId": 4,
+           "airportsId":[1,2,3,4,5,6,7,8,9,10]
+           }, 
+           {
+               "airlineId": 5,
+               "airportsId":[1,3,4,5,6,7,8,9,10]
+               },
+               {
+                   "airlineId": 6,
+                   "airportsId":[1,3,4,5,6,7,8,9,10]
+                   },{
+                       "airlineId": 7,
+                       "airportsId":[1,3,4,5,6,7,8,9,10]
+                       }
+
+],
+"aereolineas":[
+   {
+       "airportId": 1,
+       "airlinesId":[1,2,3,4,5,6]  
+   },
+   {
+       "airportId": 2,
+       "airlinesId":[1,2,3,4,5,6]  
+   }, {
+       "airportId": 3,
+       "airlinesId":[1,2,3,4,5,6]  
+   }, {
+       "airportId": 4,
+       "airlinesId":[1,2,3,4,5,6]  
+   }, {
+       "airportId": 5,
+       "airlinesId":[1,2,3,4,5,6]  
+   }, {
+       "airportId": 6,
+       "airlinesId":[1,2,3,4,5,6]  
+   }, {
+       "airportId": 7,
+       "airlinesId":[1,2,3,4,5,6]  
+   }, {
+       "airportId": 8,
+       "airlinesId":[1,2,3,4,5,6]  
+   }, {
+       "airportId": 9,
+       "airlinesId":[1,2,3,4,5,6]  
+   }, {
+       "airportId": 10,
+       "airlinesId":[1,2,3,4,5,6]  
+   }
+]},
+
+"vuelos":
+[{
+   
+   "roundTrip":"false",
+   "airportOriginId":1,
+   "airportDestinyId":6,
+   "dateTimeDeparture":"2023-03-22 10:40",
+   "dateTimeArrival1":"2023-03-22 18:30",
+   "dateTimeReturn":null,
+   "dateTimeArrival2":null,
+   "seatsAvailable":146,
+   "ticketPrice":288,
+   "scale":"1",
+   "AirlineId":1
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":1,
+   "airportDestinyId":6,
+   "dateTimeDeparture":"2023-03-22 10:40",
+   "dateTimeArrival1":"2023-03-22 18:30",
+   "dateTimeReturn":"2023-04-10 13:00",
+   "dateTimeArrival2":"2023-04-10 21:20",
+   "seatsAvailable":146,
+   "ticketPrice":288,
+   "scale":"1",
+   "AirlineId":1
+},
+{
+   "roundTrip":"false",
+   "airportOriginId":1,
+   "airportDestinyId":5,
+   "dateTimeDeparture":"2023-03-15 7:30",
+   "dateTimeArrival1":"2023-03-15 10:50",
+   "dateTimeReturn":null,
+   "dateTimeArrival2":null,
+   "seatsAvailable":146,
+   "ticketPrice":152,
+   "scale":"0",
+   "AirlineId":2
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":1,
+   "airportDestinyId":5,
+   "dateTimeDeparture":"2023-03-16 7:30",
+   "dateTimeArrival1":"2023-03-16 10:50",
+   "dateTimeReturn":"2023-04-5 20:00",
+   "dateTimeArrival2":"2023-04-5 23:20",
+   "seatsAvailable":146,
+   "ticketPrice":152,
+   "scale":"0",
+   "AirlineId":2  
+},
+{
+   "roundTrip":"false",
+   "airportOriginId":1,
+   "airportDestinyId":3,
+   "dateTimeDeparture":"2023-03-10 15:10",
+   "dateTimeArrival1":"2023-03-10 21:50",
+   "dateTimeReturn":null,
+   "dateTimeArrival2":null,
+   "seatsAvailable":146,
+   "ticketPrice":617,
+   "scale":"0",
+   "AirlineId": 4  
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":1,
+   "airportDestinyId":4,
+   "dateTimeDeparture":"2023-03-10 8:00",
+   "dateTimeArrival1":"2023-03-10 14:50",
+   "dateTimeReturn":"2023-03-15 11:00",
+   "dateTimeArrival2":"2023-03-15 16:50",
+   "seatsAvailable":146,
+   "ticketPrice":556,
+   "scale":"0",
+   "AirlineId": 1  
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":9,
+   "airportDestinyId":3,
+   "dateTimeDeparture":"2023-03-18 00:10",
+   "dateTimeArrival1":"2023-03-18 21:10",
+   "dateTimeReturn":"2023-04-12 05:20",
+   "dateTimeArrival2":"2023-04-13 1:10",
+   "seatsAvailable":146,
+   "ticketPrice":1285,
+   "scale":"1",
+   "AirlineId": 1
+},
+{
+   "roundTrip":"false",
+   "airportOriginId":8,
+   "airportDestinyId":1,
+   "dateTimeDeparture":"2023-03-20 12:10",
+   "dateTimeArrival1":"2023-03-20 17:00",
+   "dateTimeReturn":null,
+   "dateTimeArrival2":null,
+   "seatsAvailable":146,
+   "ticketPrice":175,
+   "scale":"0",
+   "AirlineId": 2
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":5,
+   "airportDestinyId":10,
+   "dateTimeDeparture":"2023-03-28 15:30",
+   "dateTimeArrival1":"2023-03-30 12:00",
+   "dateTimeReturn":"2023-04-12 2:00",
+   "dateTimeArrival2":"2023-04-14 00:20",
+   "seatsAvailable":146,
+   "ticketPrice":1418,
+   "scale":"2",
+   "AirlineId": 5
+},
+{
+   "roundTrip":"false",
+   "airportOriginId":9,
+   "airportDestinyId":7,
+   "dateTimeDeparture":"2023-04-2 7:30",
+   "dateTimeArrival1":"2023-04-2 19:50",
+   "dateTimeReturn":null,
+   "dateTimeArrival2":null,
+   "seatsAvailable":146,
+   "ticketPrice":3233.55,
+   "scale":"0",
+   "AirlineId": 6
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":7,
+   "airportDestinyId":9,
+   "dateTimeDeparture":"2023-04-3 8:10",
+   "dateTimeArrival1":"2023-04-4 4:50",
+   "dateTimeReturn":"2023-04-27 10:40",
+   "dateTimeArrival2":"2023-04-30 3:55",
+   "seatsAvailable":146,
+   "ticketPrice":1601.25,
+   "scale":"1",
+   "AirlineId": 5
+},
+{
+   "roundTrip":"false",
+   "airportOriginId":6,
+   "airportDestinyId":10,
+   "dateTimeDeparture":"2023-03-25 4:00",
+   "dateTimeArrival1":"2023-03-25 23:20",
+   "dateTimeReturn":null,
+   "dateTimeArrival2":null,
+   "seatsAvailable":146,
+   "ticketPrice":1426,
+   "scale":"1",
+   "AirlineId": 5
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":3,
+   "airportDestinyId":10,
+   "dateTimeDeparture":"2023-05-5 12:00",
+   "dateTimeArrival1":"2023-05-6 2:20",
+   "dateTimeReturn":"2023-05-25 2:10",
+   "dateTimeArrival2":"2023-05-5 16:00",
+   "seatsAvailable":146,
+   "ticketPrice":2200,
+   "scale":"0",
+   "AirlineId": 5
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":8,
+   "airportDestinyId":1,
+   "dateTimeDeparture":"2023-04-10 17:35",
+   "dateTimeArrival1":"2023-04-10 22:25",
+   "dateTimeReturn":"2023-04-18 7:10",
+   "dateTimeArrival2":"2023-04-18 11:30",
+   "seatsAvailable":146,
+   "ticketPrice":257.88,
+   "scale":"0",
+   "AirlineId": 4
+},
+{
+   "roundTrip":"false",
+   "airportOriginId":1,
+   "airportDestinyId":10,
+   "dateTimeDeparture":"2023-04-2 17:20",
+   "dateTimeArrival1":"2023-04-3 7:55",
+   "dateTimeReturn":null,
+   "dateTimeArrival2":null,
+   "seatsAvailable":146,
+   "ticketPrice":1931,
+   "scale":"0",
+   "AirlineId": 4
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":11,
+   "airportDestinyId":6,
+   "dateTimeDeparture":"2023-05-15 3:00",
+   "dateTimeArrival1":"2023-05-15 22:55",
+   "dateTimeReturn":"2023-06-10 20:30",
+   "dateTimeArrival2":"2023-06-11 17:35",
+   "seatsAvailable":146,
+   "ticketPrice":535,
+   "scale":"1",
+   "AirlineId": 2
+},
+{
+   "roundTrip":"false",
+   "airportOriginId":10,
+   "airportDestinyId":12,
+   "dateTimeDeparture":"2023-04-03 14:10",
+   "dateTimeArrival1":"2023-04-04 00:55",
+   "dateTimeReturn":null,
+   "dateTimeArrival2":null,
+   "seatsAvailable":146,
+   "ticketPrice":3002,
+   "scale":"0",
+   "AirlineId": 7
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":10,
+   "airportDestinyId":12,
+   "dateTimeDeparture":"2023-03-25 7:30",
+   "dateTimeArrival1":"2023-03-26 3:20",
+   "dateTimeReturn":"2023-04-25 2:12",
+   "dateTimeArrival2":"2023-04-25 22:15",
+   "seatsAvailable":146,
+   "ticketPrice":1420,
+   "scale":"2",
+   "AirlineId": 7
+},
+{
+   "roundTrip":"false",
+   "airportOriginId":3,
+   "airportDestinyId":5,
+   "dateTimeDeparture":"2023-03-25 16:15",
+   "dateTimeArrival1":"2023-03-26 10:30",
+   "dateTimeReturn":null,
+   "dateTimeArrival2":null,
+   "seatsAvailable":146,
+   "ticketPrice":372,
+   "scale":"2",
+   "AirlineId": 2
+},
+{
+   "roundTrip":"true",
+   "airportOriginId":12,
+   "airportDestinyId":4,
+   "dateTimeDeparture":"2023-03-28 5:45",
+   "dateTimeArrival1":"2023-03-29 00:30",
+   "dateTimeReturn":"2023-04-17 10:22",
+   "dateTimeArrival2":"2023-04-18 5:12",
+   "seatsAvailable":146,
+   "ticketPrice":697,
+   "scale":"2",
+   "AirlineId": 2
+
+}
+
+]
+}
+

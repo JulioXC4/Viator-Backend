@@ -1,0 +1,40 @@
+[
+    {
+        "id":1,
+        "origin":"Bogota",
+        "destiny":"Buenos Aires",
+        "date_timeDeparture":"2023-02-22 16:60",
+        "date_timeArrival":"2023-03-12 13:00",
+        "seat_number":33, 
+        "ticket_price":"200$"
+
+    },
+    {
+        "id":2,
+        "origin":"Buenos Aires ", 
+        "destiny":"Bogota", 
+        "date_timeDeparture":"2023-02-22 16:60",
+        "date_timeArrival":"2023-03-12 13:00",
+        "seat_number":33, 
+        "ticket_price":"200$"
+    },
+        {
+            "id":3, 
+            "origin":"Buenos Aires ", 
+            "destiny":"Bogota", 
+            "date_timeDeparture":"2023-02-22 16:60",
+            "date_timeArrival":"2023-03-12 13:00",
+            "seat_number":55, 
+            "ticket_price":"300$"
+            
+        },
+        {
+            "id":4, 
+            "origin":"Buenos Aires ", 
+            "destiny":"Bogota", 
+            "date_timeDeparture":"2023-02-22 16:60",
+            "date_timeArrival":"2023-03-12 13:00",
+            "seat_number":44, 
+            "ticket_price":"400$"
+        }
+]
